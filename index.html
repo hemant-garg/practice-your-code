@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practice Your Code</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="asset/css/code.css">
+	<script src="asset/javaScript/lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>	
+
+
+
+<!-- header -->
+<div id="topbar">
+	<div id="appname"><a href=""> Practice Your Code  <i class="fa fa-code" aria-hidden="true"></i> </a></div>
+	<!-- 
+	<div id="navs">
+	<ul class="nav nav-pills">
+	  <li role="presentation"><a href="#">HTML</a></li>
+	  <li role="presentation"><a href="#">CSS</a></li>
+	  <li role="presentation"><a href="#">JavaScript</a></li>
+	</ul>
+	</div> -->
+</div> <!-- topbar -->
+	
+
+
+<!-- iframe -->
+<div id="outputlogo">Output</div>
+<iframe id="iframe" frameborder="0"></iframe>
+
+
+<!-- panels -->
+
+
+<div id="panelContainer">
+	<div class="name">HTML <i class="fa fa-html5" aria-hidden="true"></i></div>
+	<div class="name">CSS <i class="fa fa-css3" aria-hidden="true"></i></div>
+	<div class="name">javaScript</div>
+	
+
+	<textarea id="html"><h1>Hello User !!</h1>
+	Click here to check JavaScript is Working or not <button id="check"> Check !</button>
+	<p>Click here to Reset all codes and start your CODING<button id="reset"> Reset </button></p>
+	</textarea>
+	<textarea id="css">h1{ font-family: helvetica;}</textarea>
+	<textarea id="js">document.querySelector("#check").onclick = function(){ document.querySelector("h1").innerHTML = "YESS !! Its Working fine"; };
+	</textarea>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="asset/javaScript/code.js">	</script>
+</body>
+</html>
